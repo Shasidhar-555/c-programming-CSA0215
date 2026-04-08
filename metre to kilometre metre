@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int m, km, r;
+    scanf("%d", &m);
+    km = m / 1000;
+    r = m % 1000
+    printf("kilometers=%d meters=%d", km, r);
+
+    return 0;
+}
